@@ -2,7 +2,8 @@ LaTeX style file for UChicago-themed presentation slides
 ========================================================
 
 The style file `ucslides.sty` defines a simple LaTeX template of University of
-Chicago-themed presentation slides, without the beamer-specific class properties.
+Chicago-themed presentation slides, using the basic "article" document class
+without the beamer-specific class properties.
 
 Use
 ---
@@ -15,6 +16,12 @@ To use this style file, do the following in your document's preamble:
 
 Please be sure that both the `.sty` file and `uchicago.eps` are
 in the same directory as your document.
+
+New macros and other useful bits:
+
+- `\maketitleslide`
+- `\slidetitle` (analogous to `\section` in a canonical document)
+- use `\newpage` to create a new slide
 
 For a working example, please consult `sample-doc.tex` and `sample-doc.pdf`
 in the GitHub repository.
