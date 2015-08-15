@@ -43,9 +43,18 @@
 \usepackage{graphicx}
 \usepackage[fontsize=15pt]{scrextend}
 \usepackage[svgnames]{xcolor}
+\definecolor{DarkBlue}{RGB}{0,0,128}
 
 \usepackage{sectsty}
 \allsectionsfont{\centering}
+
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks,
+  citecolor=DarkBlue,
+  linkcolor=DarkBlue,
+  urlcolor=DarkBlue}
 
 %--------------------------------%
 % call fancyhdr and set header/footer
@@ -76,7 +85,7 @@
 
 \maketitle
 
-\vspace{2em}
+\vspace{1.5em}
 
 \begin{center}
 \includegraphics[width=2.5in]{uchicago.eps}
@@ -89,4 +98,9 @@
 % new commands
 
 \newcommand{\slidetitle}[1]{\section*{\color{Maroon} #1} \large}
+
+%--------------------------------%
+% default sans serif font
+
+\renewcommand{\familydefault}{\sfdefault}
 
