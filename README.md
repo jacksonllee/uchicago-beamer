@@ -24,6 +24,12 @@ For a working example, please consult `sample-doc.tex` and `sample-doc.pdf`
 included in this repository.
 
 
+Repository
+----------
+
+This `UChicago` LaTeX beamer theme is hosted at https://github.com/JacksonLLee/ucslides
+
+
 Copyright
 ---------
 
