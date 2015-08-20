@@ -10,14 +10,14 @@ Use
 ---
 
 To use this beamer theme, simply use the beamer class as usual and
-call the `uchicago` theme in the preamble of your `.tex` file:
+call the `UChicago` theme in the preamble of your `.tex` file:
 
 ~~~ latex
 \documentclass{beamer}
 \usetheme{uchicago}
 ~~~
 
-Please be sure that both `beamerthemeuchicago.sty` and `uchicago.eps`
+Please be sure that both `beamerthemeUChicago.sty` and `uchicago.eps`
 are in the same directory as your LaTeX document.
 
 For a working example, please consult `sample-doc.tex` and `sample-doc.pdf`
