@@ -1,0 +1,73 @@
+% beamer style file for University of Chicago-themed slides
+%
+% Copyright 2015 by Jackson Lee <jsllee@uchicago.edu>
+%
+% Licensed under the Apache License, Version 2.0 (the "License");
+% you may not use this file except in compliance with the License.
+% You may obtain a copy of the License at
+% http://www.apache.org/licenses/LICENSE-2.0
+% Unless required by applicable law or agreed to in writing,
+% software distributed under the License is distributed on an "AS IS" BASIS,
+% WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+% See the License for the specific language governing permissions and
+% limitations under the License.
+
+\mode<presentation>
+
+% required packages
+\RequirePackage{graphicx}
+
+
+% define the color "Maroon"
+\definecolor{Maroon}{RGB}{128,0,0}
+
+
+% add uchicago logo to title page
+\titlegraphic{\vspace{1em}\includegraphics[width=10em]{uchicago.eps}}
+
+
+% title
+\setbeamerfont{title}{series=\bfseries}
+\setbeamercolor{title}{fg=black}
+
+
+% remove navigation symbols at footers
+\setbeamertemplate{navigation symbols}{}
+
+
+% define footer
+\setbeamertemplate{footline}{
+
+    \ifnum \insertframenumber=1
+        % title page has no footer
+        {}
+    \else
+        % all pages after the title page have a footer
+        \hspace*{1em} \hrulefill \hspace*{1em} \vspace{.5em}
+
+        \hspace*{1em} \insertshortauthor \hfill \insertshorttitle \hfill
+            \insertframenumber \hspace*{1em} \vspace{.5em}
+    \fi
+}
+
+
+% frame title
+\setbeamercolor{frametitle}{fg=Maroon}
+
+
+% block style
+\useinnertheme[shadow]{rounded}
+\setbeamercolor{block title}{fg=white,bg=Maroon!75!black}
+
+
+% bullet and list styles
+\setbeamertemplate{itemize item}[default]
+\setbeamercolor{itemize item}{fg=Maroon}
+
+\setbeamertemplate{itemize subitem}[square]
+\setbeamercolor{itemize subitem}{fg=Maroon}
+
+\setbeamertemplate{enumerate item}[default]
+\setbeamercolor{enumerate item}{fg=black}
+
+\mode<all>

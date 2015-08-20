@@ -2,4 +2,8 @@
 *.dvi
 *.log
 *.aux
+*.toc
+*.snm
+*.out
+*.nav
 

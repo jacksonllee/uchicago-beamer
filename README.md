@@ -1,30 +1,27 @@
-LaTeX style file for UChicago-themed presentation slides
-========================================================
+beamer theme for UChicago-themed presentation slides
+====================================================
 
-The style file `ucslides.sty` defines a simple LaTeX template of University of
-Chicago-themed presentation slides, using the basic "article" document class
-without the beamer-specific class properties.
+A custom LaTeX beamer theme is defined for University of Chicago-themed
+presentation slides. The focus is simplicity, with distracting elements
+removed such as navigation symbols in standard beamer. The general
+color theme is, not surprisingly, based on the iconic UChicago maroon.
 
 Use
 ---
 
-To use this style file, do the following in your document's preamble:
+To use this beamer theme, simply use the beamer class as usual and
+call the `uchicago` theme in the preamble of your `.tex` file:
 
-- Define these three values: `\title`, `\author`, `\date`
-- Define two new commands: `\shortauthor`, `\shorttitle`
-- *After* these five things are defined, put down `\usepackage{ucslides}`.
+~~~ latex
+\documentclass{beamer}
+\usetheme{uchicago}
+~~~
 
-Please be sure that both the `.sty` file and `uchicago.eps` are
-in the same directory as your document.
-
-New macros and other useful bits:
-
-- `\maketitleslide`
-- `\slidetitle` (analogous to `\section` in a canonical document)
-- use `\newpage` to create a new slide
+Please be sure that both `beamerthemeuchicago.sty` and `uchicago.eps`
+are in the same directory as your LaTeX document.
 
 For a working example, please consult `sample-doc.tex` and `sample-doc.pdf`
-in the GitHub repository.
+included in this repository.
 
 
 Copyright

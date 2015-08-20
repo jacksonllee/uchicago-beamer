@@ -1,53 +1,64 @@
-\documentclass{article}
+\documentclass{beamer}
 
-% these user-defined variables must come at the very beginning of the doc!
+\title[Short Talk Title]{Full Presentation Title}
+\author[J. Smith]{Joe Smith}
+\date[2015]{\today}
 
-\title{\bf Presentation title here}
-\author{John D. Smith}
-\date{July 25, 2015}
-
-\newcommand{\shortauthor}{John Smith}
-\newcommand{\shorttitle}{short talk title}
-
-% these user-defined variables above must come before "\usepackage{ucslides}"
-\usepackage{ucslides}
-
-%==============================================================================%
-%==============================================================================%
+\usetheme{uchicago}
 
 \begin{document}
 
+\begin{frame}
+\titlepage
+\end{frame}
 
-\maketitleslide
 
+\begin{frame}{First Slide}
 
-
-%==============================================================================%
-
-\slidetitle{Some slide title}
-
-whatever
+\begin{enumerate}
+\item one
+\item two
+\item blah blah blah
 
 \begin{itemize}
-\item blah
-\item blah blah
+\item one
+\item two
 \item blah blah blah
+
 \end{itemize}
 
-\newpage
+\end{enumerate}
 
-%==============================================================================%
+\end{frame}
 
-\slidetitle{Another slide}
 
-something else
+\begin{frame}
+\frametitle{Second Slide}
+
+Something here
 
 \begin{itemize}
-\item blah
-\item blah blah
+\item one
+\item two
 \item blah blah blah
+
+\begin{itemize}
+\item one
+\item two
+\item blah blah blah
+
 \end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Third Slide}
+\begin{block}{block title}
+blah
+\end{block}
+\end{frame}
 
 
 \end{document}
-
