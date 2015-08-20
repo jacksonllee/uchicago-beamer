@@ -14,7 +14,7 @@ call the `UChicago` theme in the preamble of your `.tex` file:
 
 ~~~ latex
 \documentclass{beamer}
-\usetheme{uchicago}
+\usetheme{UChicago}
 ~~~
 
 Please be sure that both `beamerthemeUChicago.sty` and `uchicago.eps`
