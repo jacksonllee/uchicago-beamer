@@ -17,6 +17,7 @@
 
 % required packages
 \RequirePackage{graphicx}
+\RequirePackage{textpos}
 
 
 % define the color "Maroon"
@@ -52,9 +53,12 @@
 }
 
 
-% frame title
+% frame title (set color and add uchicago seal)
 \setbeamercolor{frametitle}{fg=Maroon}
-
+\addtobeamertemplate{frametitle}{}{%
+\begin{textblock*}{3em}(.93\textwidth,-.9em)
+\includegraphics[height=3em]{ucseal.eps}
+\end{textblock*}}
 
 % block style
 \useinnertheme[shadow]{rounded}
