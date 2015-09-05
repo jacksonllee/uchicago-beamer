@@ -31,7 +31,7 @@ included in this repository.
 Repository
 ----------
 
-This `UChicago` LaTeX beamer theme is hosted at https://github.com/JacksonLLee/ucslides
+This `UChicago` LaTeX beamer theme is hosted at https://github.com/JacksonLLee/uchicago-beamer
 
 
 Copyright
