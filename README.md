@@ -2,8 +2,8 @@ beamer theme for UChicago-themed presentation slides
 ====================================================
 
 A custom LaTeX beamer theme is defined for University of Chicago-themed
-presentation slides. The focus is simplicity, with distracting elements
-removed (such as the footer navigation symbols in standard beamer).
+presentation slides. The focus is simplicity;
+the footer navigation symbols in standard beamer are suppressed.
 The general
 color theme is, not surprisingly, based on the iconic UChicago maroon.
 
@@ -20,12 +20,22 @@ call the `UChicago` theme in the preamble of your `.tex` file:
 
 The theme depends on packages `graphicx` and `textpos`.
 
-Please be sure that both `beamerthemeUChicago.sty`, `uchicago.eps`, and
+Please be sure that `beamerthemeUChicago.sty`, `uchicago.eps`, and
 `ucseal.eps`
 are in the same directory as your LaTeX document.
 
-For a working example, please consult `sample-doc.tex` and `sample-doc.pdf`
-included in this repository.
+
+Sample
+------
+
+For a working example, please see `sample-doc.tex` and `sample-doc.pdf`
+included in this repository. Screenshots:
+
+![slide1](slide1.png)
+
+![slide](slide2.png)
+
+![slide3](slide3.png)
 
 
 Repository
